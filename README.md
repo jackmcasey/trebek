@@ -26,6 +26,8 @@ You can run the dockerfile as you see fit, but the easiest way is likely:
 
 `docker-compose up`
 
+## Server
+
 To switch to jeopardy_server for development, edit line 7 of the dockerfile:
 
 `WORKDIR /jeopardy/jeopardy_client`
