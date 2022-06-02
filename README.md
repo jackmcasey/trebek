@@ -26,6 +26,21 @@ cd trebek
 docker build . -t jeopardy
 ```
 
+Update the port in docker-compose.yml:
+
+```
+---
+version: "2.1"
+services:
+  jeopardy:
+    image: jeopardy
+    container_name: jeopardy
+    ports:
+      - 80:5000
+    restart: unless-stopped
+```
+
+
 Finally, create and start the container:
 
 `docker-compose up`
