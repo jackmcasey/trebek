@@ -10,7 +10,8 @@ Confirm these are installed with:
 ```
 docker -v && docker-compose -v
 ```
-```output
+Sample successful output:
+```
 Docker version 20.10.16, build aa7e414fdc
 Docker Compose version 2.5.1
 ```
