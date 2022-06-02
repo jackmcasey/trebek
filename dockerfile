@@ -4,7 +4,7 @@ MAINTAINER jackmcasey
 RUN apt-get update
 RUN git clone https://github.com/C14H14N2O4/jeopardy/
 
-WORKDIR /jeopardy/jeopardy_server
+WORKDIR /jeopardy/jeopardy_client
 
 RUN npm install
 
