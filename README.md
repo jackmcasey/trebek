@@ -8,15 +8,18 @@ You will need `docker` and `docker-compose`
 Confirm these are installed with:
 
 ```
-$ docker -v && docker-compose -v
+docker -v && docker-compose -v
+```
+```output
 Docker version 20.10.16, build aa7e414fdc
 Docker Compose version 2.5.1
-$
 ```
 
 Clone the repo with:
 
-`git clone https://github.com/jackmcasey/trebek`
+```
+git clone https://github.com/jackmcasey/trebek
+```
 
 You can run the dockerfile as you see fit, but the easiest way is likely:
 
@@ -32,10 +35,9 @@ becomes:
 
 Then rebuild the docker image:
 
-```
-cd trebek
+`
 docker build . -t jeopardy
-```
+`
 
 Update the port in docker-compose.yml:
 
